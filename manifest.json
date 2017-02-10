@@ -1,0 +1,30 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "images/icon.png"
+   },
+   "commands": {
+      "_execute_browser_action": {
+         "suggested_key": {
+            "default": "Ctrl+M",
+            "mac": "MacCtrl+M"
+         }
+      }
+   },
+   "description": "Live preview of CSS changes with an in-page CSS editor. Beautify CSS, minify CSS, syntax highlighting and create GitHub Gist & mail.",
+   "homepage_url": "http://jsbookmarklets.com/",
+   "icons": {
+      "128": "images/128.png",
+      "16": "images/16.png",
+      "24": "images/24.png",
+      "32": "images/32.png",
+      "48": "images/48.png"
+   },
+   "manifest_version": 2,
+   "name": "MagiLess - Live Less Editor",
+   "optional_permissions": [ "\u003Call_urls>" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0"
+}
